@@ -1,96 +1,81 @@
-let array = [1, '2', 3.123, '4', 5];
-// console.log(array[0]);
-// console.log(array[1]);
-// console.log(array[2]);
-// console.log(array[3]);
-// console.log(array[4]);
-console.log(array);
+// if, switch and loop
 
 
-// let array = [['A', 'B', 'C', ['!', '@']], 1, 2, 3, 4, 5];
-// console.log(array[0][3][1]);
-
-// const array = ['A', 'B', 'C'];
-// const array2 = [1, 2, 3];
-// const array3 = ['!', '@', '#'];
-
-// console.log(array.lastIndexOf('A', 2));
-
-// console.log(array.concat(array2).concat(array3));
-// var fruits = ["Banana", "Orange", "Apple", "Mango"];
-// fruits.splice(2, 1, "Lemon", "Kiwi");
-// console.log(fruits);
-
-// const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
-// const citrus = fruits.slice(1, 3);
-// console.log(citrus);
-
-// let array = [5, 2, 1, 7, 10];
-// array = array.reverse();
-// console.log(array);
-
-// const array = ['A', 'B', 'C'];
-// for (var i=0; i<array.length; i++) {
-//     console.log(array[i]);
+// const nilai = 50;
+// if (nilai >= 80) {
+//     console.log('A');
+// } else if (nilai >= 60 && nilai < 80) {
+//     console.log('B');
+// } else {
+//     console.log('F');
 // }
 
-// const array1 = ['a', 'b', 'c'];
-// array1.forEach((element, i) => {
-//     console.log(element)
-//     console.log(i)
-// });
 
-// let numbers = [4, 9, 16, 25];
-// numbers = numbers.map(Math.sqrt);
-// console.log(numbers)
-// console.log(numbers.find());
-
-// Input array contain some elements.
-// var array = [-10, 0.20, -0.30, 40, -50];
-  
-// // Method (return element > 0).
-// var found = array.find(function (element) {
-//     return element > 0;
-// });
-
-// // Printing desired values.
-// console.log(found);
+// const nilai = 80;
+// switch (true) {
+//     case nilai >= 80:
+//         console.log('A');
+//         break;
+//     case nilai >= 60 && nilai < 80:
+//         console.log('B');
+//         break;
+//     default:
+//         console.log('F');
+//         break;
+// }
 
 
-// const string = 'aku suka makan nasi goreng';
-// console.log(string.indexOf('nasi goreng'));
+// // and condition
+// true && true -> true
+// true && false -> false
+// true && true && true -> true
+// true && false && true -> false
+
+// // or condition
+// true || true -> true
+// true || false -> true
+// false || false -> false
+// true || false || false -> true
 
 
-// const array = [1, 2];
-// const n = 7;
-// for (var i=0; i<7; i++) {
-//     if (i < 2) console.log(array[i]);
-//     else {
-//         array[i] = array[i - 1] + array[i - 2];
-//         console.log(array[i]);
+// const contoh = {};
+// if (contoh) {
+//     console.log(true);
+// } else {
+//     console.log(false);
+// }
+
+// ternary condition
+// const programmingLanguage = "Java";
+// console.log (programmingLanguage === "Javascript" ? "true condition" : "false condition");
+
+
+// const lapar = true;
+// const punyaUang = false;
+
+// if (lapar) {
+//     if (punyaUang) {
+//         console.log('makan');
 //     }
 // }
 
-
-// const biodata = {
-//     nama: "Vincent",
-//     usia: 70,
-//     alamat: "Taman kebon jeruk"
+// for (var i=0; i<5; i++) {
+//     // if (i == 3) continue;
+//     console.log(`nilai i sekarang: ${i}`);
 // }
 
-// console.log(biodata.alamat);
-// console.log(biodata["alamat"]);
+// break -> menghentikan loop
+// continue -> lewati loop
 
-const biodataArray = [
-    {
-        nama: "Vincent",
-        usia: 70,
-        alamat: "Taman kebon jeruk"
-    }, {
-        nama: "Joko",
-        usia: 50,
-        alamat: "Jl. Jendral Sudirman"
-    }
-];
+// let i = 0;
+// while (i < 5) {
+//     console.log(`nilai i sekarang: ${i}`);
+//     i++;
+// }
 
-console.log(biodataArray);
+// let i = 5;
+// do {
+//     console.log(`nilai i sekarang: ${i}`);
+//     i++;
+// } while (i < 5)
+
