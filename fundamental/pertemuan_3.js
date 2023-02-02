@@ -84,16 +84,16 @@
 // console.log(biodata.alamat);
 // console.log(biodata["alamat"]);
 
-const biodataArray = [
-    {
-        nama: "Vincent",
-        usia: 70,
-        alamat: "Taman kebon jeruk"
-    }, {
-        nama: "Joko",
-        usia: 50,
-        alamat: "Jl. Jendral Sudirman"
-    }
-];
+// const biodataArray = [
+//     {
+//         nama: "Vincent",
+//         usia: 70,
+//         alamat: "Taman kebon jeruk"
+//     }, {
+//         nama: "Joko",
+//         usia: 50,
+//         alamat: "Jl. Jendral Sudirman"
+//     }
+// ];
 
-console.log(biodataArray);
+// console.log(biodataArray);
