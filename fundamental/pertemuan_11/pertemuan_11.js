@@ -166,6 +166,6 @@
 // test.display();
 
 
-const {bio, display} = require('./test');
+const {bio, display} = require('./belajar_export');
 console.log(bio);
 display();
