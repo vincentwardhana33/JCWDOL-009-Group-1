@@ -1,0 +1,78 @@
+h2 {
+    color: orange
+}
+
+/* p {
+    font-family: "Impact", Arial;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    text-shadow: 4px 4px 4px red;
+    line-height: 50%;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: left;
+    text-indent: 2rem;
+} */
+
+p::first-line {
+    color: purple;
+    font-variant: small-caps;
+}
+
+.mobil {
+    font-weight: bold;
+}
+
+#avanza {
+    color: greenyellow
+}
+
+#alya {
+    color: green
+}
+
+a:link {
+    color: #13db3b;
+}
+
+a:visited {
+    color: #0ecce9;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: yellow;
+}
+
+/* body {
+    background-color: lightgray;
+    background: url("shinchan.jpg");
+    background-position: left top;
+    background-size: 1280px 720px;
+} */
+
+.konten {
+    background-color: pink;
+    width: 900px;
+    height: 100px;
+}
+
+div {
+    background-color: lightblue;
+    width: 900px;
+    height: 500px;
+}
+
+h1 {
+    color: white;
+    background-color: blue;
+    padding: 25px;
+    border: 20px ridge yellow;
+    border-radius: 10px;
+    box-shadow: -0.5rem 0.5rem 1rem gray;
+}
+
